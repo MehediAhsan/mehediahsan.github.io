@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/css/nivo-slider.css" type="text/css" media="screen" />
+	
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Mehedi Ahsan</title>
+		<link rel="icon" href="assets/img/favicon.png" type="image/png"/>
+		<link rel="shortcut icon" href="assets/img/favicon.ico" />
+    </head>
+    <body>
+        <!-- OVERLAY -->
+        <div class="overlay first"></div>
+        <div class="overlay second"></div>
+        <div class="overlay third"></div>
+
+        <!-- HEADER -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <!--<div>
+                    <a href="#"><img src="assets/img/images.jpg"  class="nav__logo" alt="" /></a>
+                </div>-->
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="aboutme.html" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="education.html" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="project.html" class="nav__link">My Project</a></li>
+                        <li class="nav__item"><a href="contact.html" class="nav__link">Contact Me</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <ion-icon name="menu"></ion-icon>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main class="l-main bd-grid">
+            <div class="home">
+                <div class="home__information">
+                    <span class="home__pressent anime-text">Hi,I am</span>
+                    <h2 class="home__title anime-text">MEHEDI AHSAN</h2>
+                    <span class="home__skill anime-text">Programmer| Developer| Content Creator</span>
+                    
+                    <div>
+                        <a href="cv.html" target="_blank" class="home__button anime-text">Open my CV</a>
+                    </div>
+                </div>
+
+                <div class="home__img">
+                    <div class="slider-wrapper theme-dark">
+            <div id="slider" class="nivoSlider">
+			
+				<img src="assets/img/img.jpg" data-thumb="assets/img/img.jpg" alt="" />
+			<img src="assets/img/img2.jpg" data-thumb="assets/img/img2.jpg" alt=""  />
+                <img src="assets/img/imgss.jpg" data-thumb="assets/img/imgss.jpg" alt="" />
+				
+                <img src="assets/img/Mehedi Ahsan.jpg" data-thumb="assets/img/img3.jpg" alt="" />
+                <img src="assets/img/img4.jpg" data-thumb="assets/img/img4.jpg" alt="" />
+				
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption"> 
+            </div>
+        </div>
+	
+	
+	<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+                </div>
+                
+                <div class="home__social">
+                <!--   <h3>Follow ME:</h3>
+		<ul>
+			<li class="floatleft"><a href="https://www.facebook.com/mehediahsan19/"><img src="assets/img/facebook.png" alt="Facebook" /></a></li>
+			<li class="floatleft"><a href="https://www.youtube.com/channel/UC5tCJZd5vW763oz3s9x46jw?view_as=subscriber"><img src="assets/img/youtube.png" alt="Youtube" /></a></li>
+		</ul> --> 
+                </div>
+
+            </div>
+        </main>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <!-- MAIN -->
+        <script src="assets/js/main.js"></script>
+    
+        <!-- ICONS -->
+        <script  type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    </body>
+</html>
